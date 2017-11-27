@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/Curling/Skip/skip.cpp
+opencv2/opencv.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+iostream
+-
+fstream
+-
+string
+-
+string.h
+-
+sys/time.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+sstream
+-
+
